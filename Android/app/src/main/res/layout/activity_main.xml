@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jin.homeiot.MainActivity">
+
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="알림판 : " />
+
+    <TextView
+        android:id="@+id/tvWaterLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="수위 : " />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="온도 : " />
+
+    <Button
+        android:id="@+id/btnFanOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선풍기 켜기" />
+
+    <Button
+        android:id="@+id/btnFanOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선풍기 끄기" />
+
+    <Button
+        android:id="@+id/btnOnLED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LED켜기" />
+
+    <Button
+        android:id="@+id/btnOffLED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LED끄기" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="침입 확인" />
+
+</LinearLayout>

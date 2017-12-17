@@ -2,3 +2,5 @@
 RaspberryPi/.settings
 RaspberryPi/.classpath
 RaspberryPi/.project
+
+Android/.*
