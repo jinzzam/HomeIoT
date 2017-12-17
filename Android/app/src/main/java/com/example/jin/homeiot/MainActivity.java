@@ -128,20 +128,4 @@ public class MainActivity extends AppCompatActivity {
             }
         }.start();
     }
-
-    public TextView getTvWarning() {
-        return tvWarning;
-    }
-
-    public void setTvWarning(TextView tvWarning) {
-        this.tvWarning = tvWarning;
-    }
-
-    public TextView getTvWaterLine() {
-        return tvWaterLine;
-    }
-
-    public void setTvWaterLine(TextView tvWaterLine) {
-        this.tvWaterLine = tvWaterLine;
-    }
 }
